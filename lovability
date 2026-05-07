@@ -1,0 +1,109 @@
+Forget MVP (Minimal Viable Product). The new baseline is MLP: Minimal Lovable Product. Because if it’s not lovable, it’s not viable in the market anymore.
+
+And sure, we can debate what ‘viable’ is supposed to mean, but let’s be real - MVP devolved into “minimal functioning product” because ‘viable’ got watered down to ‘it performs bare minimum.’
+
+And that’s because dev work was expensive. Like very expensive. But we live in the new reality now where dev costs are collapsing. Everyone’s a builder now. Software functionality is becoming a… commodity. So an MVP just means you built another tool people tolerate until they re-create it themselves or a better one comes along.
+
+An MLP is different: earliest version that’s genuinely lovable. The kind of product where people feel it. It’s fast, obvious, opinionated, and gives you that ‘wait, this is actually… nice’ moment.
+
+But most people still don’t get why this matters so much right now.
+
+When I bring up MLP, I always get pushback. ‘You’re describing MVP incorrectly! The original definition already includes that!’
+
+I know what MVP was supposed to be. Eric Ries got everyone onboard by showing how MVPs were the way to learn as much as possible about customers with the least effort. The build-measure-learn loop. That’s a smart framework. I think it’s awesome.
+
+But for every team that correctly uses MVP to drive iterative, rapid learning… there are 10 teams that ship shit and use ‘it’s just an MVP’ as an excuse. MVP stopped being a learning process and became the bar for shipping. Products launched as skeletons and stayed as skeletons. I’ve been on those teams. Even the engineers would admit it: ‘yeah, it sucks, but at least we got something out.’
+
+The term has been stained. To signal something different, you need something different.
+
+Raising the bar
+MVP got popular for a reason. Building software was expensive. Access to engineering was super limited. Going beyond ‘functional’ cost real money, so shipping a skeleton and iterating made sense. Customers tolerated it because it solved a problem for them. An MVP was ‘viable’ because it was good enough to meet a need. But if the product didn’t get any better from there… too bad, so sad. What else were they going to do? This whole approach to software got entrenched, and now we’ve got a whole industry of frustrating, bland apps that technically fix a problem but also make us miserable.
+
+
+But now (in case you hadn’t heard about this?) AI is absolutely obliterating the cost of building software. Every current product is facing competition on at least 3 fronts:
+
+Brand new competitors are popping up everywhere. Basic functionality that used to cost a minimum of $200K for a short sprint can now be built for $20. Or $100. Or free.
+
+Existing competitors can ship faster. Engineering teams are now AI-enabled - many having 90%+ of their code written by AI. The ones leaning in have accelerated in ways that would’ve seemed impossible two years ago.
+
+Customers can build it themselves. The gates are gone. You can do it. I can do it. Everyone can do it.
+
+This sounds crazy, but we’re reaching the point where feature-based differentiation is becoming completely irrelevant. Basic product utility is becoming a commodity. Now that anyone and everyone can build something that solves the basic problem, solving the problem isn’t enough anymore. The bar has been raised.
+
+Here’s what nobody’s saying out loud yet: lovability might be the last defensible moat. AI can ship features overnight. It can match functionality in days. What it doesn’t (yet) replicate is the specific emotional relationship your users have built with your product - the way it talks to them, the way it celebrates their wins, the way it handles their mistakes. That stuff compounds. And it’s really hard to copy.
+
+Hierarchy of SaaS Needs
+Think about Maslow’s hierarchy of needs. Once the basics like safety and security are covered, humans reach for something higher. Connection. Belonging. Purpose. Joy.
+
+When customers have choices, they don’t have to tolerate functional-but-soulless anymore. They’ll pick the product that makes them feel something. If something can make me smile, why would I choose a cold skeleton instead?
+
+Here’s how I think about it:
+
+
+
+
+Functional — Does it work? Does it load, not crash, do the things it promises?
+
+Reliable — Is it secure and dependable?
+
+Usable — Is it easy and intuitive? Can I figure it out without losing my mind?
+
+Lovable — Does it delight me emotionally? Does interacting with it leave me with a positive feeling?
+
+Most products live in the bottom two layers. Functional and reliable. I don’t know that I’ve ever seen something called an MVP that escaped those tiers. Growth used to focus on easy and intuitive. But even that is not enough anymore.
+
+MLP is all about taking things all the way to the top. The minimum bar isn’t just functional. It’s emotional. A product that makes you feel something. That makes you want to come back.
+
+And this isn’t just a feelings argument. Emotionally connected customers have higher retention, higher LTV, and they tell their friends. Word of mouth has always been the best growth channel - but people only talk about products that made them feel something. Nobody’s out here evangelizing for their procurement software.
+
+Side note: For everyone building tools for agents and surfaces for LLMs to engage… yeah, lovable doesn’t matter. They just need an MCP protocol to connect to. But if you want your product to have a human user base, don’t get stuck at the bottom of the pyramid!
+
+What lovable actually looks like
+I’ve written before about what I call ‘love marks.’ These are unexpected, delightful moments of humanity in a product. The best ones are often functionally useless… and they’re the things people remember most.
+
+Here are a few that have caught my eye recently:
+
+I’m a big Superhuman user. When I reach inbox zero, this beautiful picture comes up. Zero quantifiable value added. For no required reason. But it brings a smile to my face every single time. I love it.
+
+
+
+
+Ahhh, feels nice.
+Or Spotify’s AI DJ! I like his laid-back candor. I’ve got to admit: He’s roasted me quite a few times. ‘Yo, you listened to this song every day for the last week… let’s go ahead and listen to it again.’ And you know what? I love it! You get me, Spotify.
+
+All of these little touches create moments of human connection.
+
+And these are the moments that are never part of MVP discussions. Ever. That’s part of the whole problem: MVPs trained us to strip out everything that wasn’t strictly functional. Taste, personality, color, opinion… all of it got cut because it seemed excessive. Some of these choices actually add delays or slight friction to different UX flows (Gasp!!)... but it makes the experience so much better. And going forward, that’s exactly the stuff that makes someone choose your product over the 15 other options that do the same thing.
+
+This goes back to why Brand is a product job now. The emotional layer of your brand should show up in every product choice. How the product talks. How it handles errors. How it celebrates a win. That all has to be considered in the product itself, not just as a marketing layer on top.
+
+And for any folks reading this thinking ‘That’s cute for consumer, but my enterprise product can’t do confetti’… don’t be so sure. B2B has been following the B2C trail for years… and I can tell you first-hand: Lovable has some pretty significant enterprise traction, and nobody has complained that we’re not serious enough. People in suits want to smile, too! (Do people still wear suits to work? Who knows. You get my point.)
+
+Big companies… killing me vs. killing it
+Now let me tell you what the opposite of lovable feels like. For a recent project, a partner made me use Coupa for procurement. I felt the energy draining out of my body. I swear I lost five years of my life. Finance people love Coupa because it gives them control. But the humans actually using it? That shit is so bad.
+
+But on the other side of things, let’s give credit where it’s due: Amazon has been building ‘Minimum Lovable Products’ and using that term for a long time. It’s embedded in their leadership principles - the idea that customer obsession means understanding not just what customers need, but what would make them genuinely happy. They made that call years ago, when it was optional. Now it’s table stakes for everyone.
+
+Start pushing your product up the pyramid
+Want to get your products past functional, reliable, and even usable? If you want to start building MLPs, here’s where I’d begin:
+
+Start with your customer, not your feature list. Most teams prioritize features by value and effort. What reaches the most people? What’s easiest to build? That gives you a product that’s tolerable for everyone and loved by no one. Instead, pick a segment. Talk to them. Find the combination of features and experiences that would make that specific group fall in love.
+
+Build lovemarks into your roadmap. Not as nice-to-haves that get cut when timelines get tight. As deliberate investments with real priority. Delight moments, easter eggs, personality in the small interactions. Where does your product celebrate a user’s win? Where does it show some humor? Where does it feel like a human made it? If you don’t have good answers, that’s your starting point.
+
+Use AI to get there faster. You can literally prompt AI with ‘how can I make this interaction more lovable?’ and get surprisingly good ideas. There are also libraries full of beautiful interactive components that you can pull from for inspiration. Hover states, transitions, animations, all that good stuff.
+
+Set your bar explicitly high. At Lovable, the question we always ask before shipping is ‘Is this lovable?’ That’s the bar. Not ‘does it work.’ Not ‘is it ready.’ Every team needs their own version of that question, to force you to evaluate the emotional experience, not just the functional one. If you don’t set that bar, you’ll default back to MVP every single time.
+
+Keep it minimal! One thing I want to be clear about: MLP doesn’t mean gold-plating everything before you ship. Minimum is still minimum. The question is just: what’s the simplest thing you can add that creates a genuine emotional moment?
+
+It takes two
+All of this comes back to human connection. The magic happens when you deeply understand both the problems and experiences of your potential users… and add your own sense of taste to make it more… human. Ignore customer understanding? You’re building for no one. Ignore your own unique approach and style? You’re building something generic.
+
+This is why it’s so important to try to be your own user, as much as possible! If you don’t actually care about what you’re working on, are you really the right person to build it? Maybe you have the talent and the resources… but that’s the stuff that’s getting commoditized. The part that’s left is the heart.
+
+When you’re working on something you care about, that’s when your personality starts to shine through. Your little choices, your instincts on how to approach something, your idea for a small opportunity to create a delightful interaction.
+
+Minimum Lovable Products have just enough personality to show that a real human is there. Even if it’s just a hint, that spark is what makes an emotional connection possible. We’ve been smothering that instinct for years with the MVP approach, and now it’s time to let it out.
+
+Software is getting some personality back and I’m excited. It’s going to make the world a more lovable place.

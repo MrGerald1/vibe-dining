@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(qa)",
+      "Skill(qa:*)",
+      "Skill(autoplan)",
+      "Skill(autoplan:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" issue view 57 --repo MrGerald1/vibe-dining)",
+      "Bash(command -v codex)",
+      "Bash(grep -v \"//\")"
+    ]
+  }
+}
