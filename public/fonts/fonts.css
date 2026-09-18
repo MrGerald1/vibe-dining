@@ -1,0 +1,157 @@
+/* Chow — Self-hosted Font Families
+   ──────────────────────────────────────────────────────────────────
+   CANELA (display serif) — ⚠️ Trial fonts, license before production
+     Fallback: Cormorant (Google Fonts, free & open-source, closest match)
+     - Canela (Light/Thin): Hero display 48px+, occasion headers, wordmark
+     - CanelaDeck (Light): Card names 20–44px, section titles
+     - CanelaText (Light): Editorial one-liners, pull quotes 14–18px
+
+   POLYSANS (sans-serif secondary) — occasion chips, UI labels, body text
+     - Slim (300): light UI labels, metadata, secondary body text
+     - Neutral (400): primary body text, descriptions, button labels
+     - Bulky (700): bold emphasis, CTAs, occasion chip active state, nav labels
+
+   FONT STACK RULE — always use this order in CSS custom properties:
+     'Canela', 'Cormorant', Georgia, serif
+   Cormorant activates automatically if Canela fails to load (e.g. trial
+   font not yet replaced in production). Load Cormorant via Google Fonts
+   in the HTML <head> alongside this file.
+   ──────────────────────────────────────────────────────────────────
+*/
+
+/*
+  Load Cormorant (Canela fallback) in your HTML <head> or Next.js layout:
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+  Or in Next.js App Router (app/layout.tsx):
+  import { Cormorant } from 'next/font/google'
+  const cormorant = Cormorant({ subsets: ['latin'], weight: ['300','400','500'], style: ['normal','italic'] })
+*/
+
+/* ── Canela (large display) ─────────────────────────────────────── */
+@font-face {
+  font-family: 'Canela';
+  src: url('./Canela-Thin-Trial.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('./Canela-ThinItalic-Trial.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('./Canela-Light-Trial.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('./Canela-LightItalic-Trial.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('./Canela-Regular-Trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('./Canela-RegularItalic-Trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ── CanelaDeck (medium display — card names, section headers) ───── */
+@font-face {
+  font-family: 'CanelaDeck';
+  src: url('./CanelaDeck-Light-Trial.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CanelaDeck';
+  src: url('./CanelaDeck-LightItalic-Trial.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CanelaDeck';
+  src: url('./CanelaDeck-Regular-Trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CanelaDeck';
+  src: url('./CanelaDeck-RegularItalic-Trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ── CanelaText (editorial body — one-liners, pull quotes) ────────── */
+@font-face {
+  font-family: 'CanelaText';
+  src: url('./CanelaText-Light-Trial.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CanelaText';
+  src: url('./CanelaText-LightItalic-Trial.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ── PolySans (UI sans-serif — chips, labels, body, CTAs) ─────────── */
+@font-face {
+  font-family: 'PolySans';
+  src: url('./polysans-slim.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PolySans';
+  src: url('./polysans-neutral.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PolySans';
+  src: url('./polysans-bulky.woff2') format('woff2'),
+       url('./polysans-bulky.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

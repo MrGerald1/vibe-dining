@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-Guidelines and instructions for Claude Code when working on this repository.
+Guidelines and instructions for Codex when working on this repository.
 
 ## Gstack
 
